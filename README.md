@@ -1,7 +1,7 @@
 # Jogo Mario com JS
 
 <div>
-    <img src="/img/Jmario.png" alt="mario">
+    <img src="./img/Jmario.png" alt="mario">
 </div>
 
 ## Tecnologias 
