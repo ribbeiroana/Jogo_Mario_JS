@@ -12,7 +12,6 @@ const loop = setInterval(() => {
     const pipePosition = pipe.offsetLeft;
     const marioPosition = +window.getComputedStyle(mario).bottom.replace('px', ''); // esse + converte a string em number
 
-    // console.log(marioPosition)
     if (pipePosition <= 120 && pipePosition > 0 && marioPosition < 80) {
         pipe.style.animation = 'none';
         pipe.style.left = `${pipePosition}px`;
